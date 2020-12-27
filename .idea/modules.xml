@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dependency/dependency.iml" filepath="$PROJECT_DIR$/dependency/dependency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factory_pattern/factory_pattern.iml" filepath="$PROJECT_DIR$/factory_pattern/factory_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/j_pattern.iml" filepath="$PROJECT_DIR$/.idea/j_pattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/sigleton/sigleton.iml" filepath="$PROJECT_DIR$/sigleton/sigleton.iml" />
     </modules>

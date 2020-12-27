@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/dependency/pom.xml" />
         <option value="$PROJECT_DIR$/sigleton/pom.xml" />
+        <option value="$PROJECT_DIR$/factory_pattern/pom.xml" />
       </list>
     </option>
   </component>
