@@ -16,6 +16,7 @@ public class Pizza {
     public void prepare(){
         System.out.println("给"+name+"准备制作披萨材料");
     }
+
     public void bake(){
         System.out.println("烤"+name+"披萨");
     }
