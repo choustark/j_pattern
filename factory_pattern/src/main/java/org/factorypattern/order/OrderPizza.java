@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
  * Date:        2020-12-27 22:32 <br/>
  * Version:     V1.0.0 <br/>
  * Update:     <br>
- *  
+ *  当我们多家订购披萨的类时，此时我们需要都需要依赖pizza 类，并且如果我们新增了一种披萨的口味则我们需要改动很多的订购类中的方法。耦合度很高
  */
 
 public class OrderPizza {
