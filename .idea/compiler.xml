@@ -9,11 +9,13 @@
         <module name="sigleton" />
         <module name="factory_pattern" />
         <module name="dependency" />
+        <module name="propertype" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dependency" target="1.7" />
       <module name="factory_pattern" target="1.7" />
+      <module name="propertype" target="1.7" />
       <module name="sigleton" target="1.7" />
     </bytecodeTargetLevel>
   </component>

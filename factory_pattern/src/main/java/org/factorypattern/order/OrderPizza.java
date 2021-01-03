@@ -34,6 +34,7 @@ public class OrderPizza {
                 System.out.println("没有匹配的披萨");
                 break;
             }
+            // 如果有多个订购的类，并且披萨新增了一种类型则需要在每一个order类中新增一个类型的判断
             pizza.prepare();
             pizza.bake();
             pizza.cut();
