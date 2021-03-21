@@ -4,7 +4,7 @@ import org.factorypattern.normal.pizza.Pizza;
 
 /**
  * @ClassName AbsPizzaFactory
- * @Description TODO
+ * @Description 抽象工厂
  * @Author Axel
  * @Date 2021/1/3 19:51
  * @Version 1.0

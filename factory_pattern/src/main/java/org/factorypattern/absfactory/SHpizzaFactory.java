@@ -6,7 +6,7 @@ import org.factorypattern.normal.pizza.SHGreekPizza;
 
 /**
  * @ClassName SHpizzaFactory
- * @Description TODO
+ * @Description 简单工厂
  * @Author Axel
  * @Date 2021/1/3 21:41
  * @Version 1.0
