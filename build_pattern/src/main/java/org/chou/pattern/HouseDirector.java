@@ -1,4 +1,4 @@
-package org.example.pattern;
+package org.chou.pattern;
 
 /**
  * @ClassName HouseDirector

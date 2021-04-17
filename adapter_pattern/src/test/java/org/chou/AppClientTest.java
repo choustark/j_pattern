@@ -1,13 +1,13 @@
-package org.example;
+package org.chou;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
 /**
- * Unit test for simple ClientApp.
+ * Unit test for simple AppClient.
  */
-public class ClientAppTest
+public class AppClientTest
 {
     /**
      * Rigorous Test :-)

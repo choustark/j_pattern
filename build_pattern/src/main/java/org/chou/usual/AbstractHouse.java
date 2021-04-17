@@ -1,4 +1,4 @@
-package org.example.usual;
+package org.chou.usual;
 
 /**
  * @ClassName AbstractHouse

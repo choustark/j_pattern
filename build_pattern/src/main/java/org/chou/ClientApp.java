@@ -1,10 +1,9 @@
-package org.example;
+package org.chou;
 
-import org.example.pattern.House;
-import org.example.pattern.HouseDirector;
-import org.example.usual.AbstractHouse;
-import org.example.usual.CommonHouse;
-import sun.security.ssl.HandshakeOutStream;
+import org.chou.pattern.House;
+import org.chou.pattern.HouseDirector;
+import org.chou.usual.AbstractHouse;
+import org.chou.usual.CommonHouse;
 
 /**
  * Hello world!
@@ -20,7 +19,7 @@ public class ClientApp {
         System.out.println( "Hello World!" );
 
         // 使用建造者模式
-        org.example.pattern.CommonHouse house1 = new org.example.pattern.CommonHouse();
+        org.chou.pattern.CommonHouse house1 = new org.chou.pattern.CommonHouse();
         HouseDirector director = new HouseDirector(house1);
         House house2 = director.constructHouse();
 
