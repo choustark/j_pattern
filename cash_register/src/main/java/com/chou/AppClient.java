@@ -1,5 +1,7 @@
 package com.chou;
 
+import java.util.Scanner;
+
 /**
  * 需求： 一个收银台计费软件
  * 1、输入单价输入数量 计算价格
@@ -12,6 +14,7 @@ package com.chou;
  */
 public class AppClient {
     public static void main( String[] args ) {
+        Scanner scanner = new Scanner(System.in);
         System.out.println( "Hello World!" );
     }
 }

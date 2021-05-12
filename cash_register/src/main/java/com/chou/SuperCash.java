@@ -47,9 +47,7 @@ public abstract class SuperCash {
      *
      * @return
      */
-    BigDecimal calculationCash() {
-        return this.unitPrice.multiply(BigDecimal.valueOf(this.count));
-    }
+    abstract BigDecimal calculationCash();
 
     @Override
     public boolean equals(Object o) {
