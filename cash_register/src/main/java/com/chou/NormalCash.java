@@ -12,6 +12,13 @@ import java.math.BigDecimal;
 
 public class NormalCash extends SuperCash {
 
+    public NormalCash() {
+    }
+
+    public NormalCash(BigDecimal unitPrice, Integer count) {
+        super(unitPrice, count);
+    }
+
     @Override
     BigDecimal calculationCash() {
         return super.getUnitPrice().multiply(BigDecimal.valueOf(super.getCount()));

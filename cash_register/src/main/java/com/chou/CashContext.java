@@ -11,6 +11,7 @@ import java.math.BigDecimal;
  */
 
 public class CashContext {
+
     SuperCash cash;
 
     public CashContext(SuperCash cash) {
