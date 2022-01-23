@@ -1,7 +1,7 @@
-package org.factorypattern.simplefactory.singleton.type6;
+package org.singleton.type5;
 
 /**
- * Description: 懒汉式 懒加载的，线程安全，效率高
+ * Description: 懒汉式 懒加载的，线程安全，但是如果多个线程获取可能会等待比较久
  * Author:      Axel
  * Date:        2020-12-16 23:10
  * Version:     V1.0.0<br>
@@ -25,11 +25,12 @@ class Singleton {
 
     private static Singleton instance = null;
 
-    public static synchronized Singleton getInstance() {
-
-        if (instance == null) {
-            synchronized (Singleton.class) {
-                return instance = new Singleton();
+    public static Singleton getInstance() {
+        if(instance == null){
+            synchronized (Singleton.class){
+                if (instance == null) {
+                    return instance = new Singleton();
+                }
             }
         }
         return instance;

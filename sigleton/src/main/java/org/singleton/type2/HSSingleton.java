@@ -1,17 +1,15 @@
-package org.factorypattern.simplefactory.singleton.type1;
+package org.singleton.type2;
 
 /**
  * Description:
  * Author:      Axel
- * Date:        2020-12-16 22:49
+ * Date:        2020-12-16 23:05
  * Version:     V1.0.0<br>
  * Update:     <br>
  *  
  */
 
-public class HSingleton {
-
-
+public class HSSingleton {
     public static void main(String[] args) {
         Singleton instance = Singleton.getInstance();
         Singleton instance1 = Singleton.getInstance();
@@ -22,9 +20,12 @@ public class HSingleton {
     }
 }
 
- class Singleton{
+class Singleton{
     private Singleton(){}
-    private final static Singleton instance = new Singleton();
+    private final static Singleton instance;
+    static{
+         instance = new Singleton();
+    }
     public static Singleton getInstance(){
         return instance;
     }

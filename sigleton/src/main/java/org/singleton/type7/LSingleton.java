@@ -1,7 +1,7 @@
-package org.factorypattern.simplefactory.singleton.type4;
+package org.singleton.type7;
 
 /**
- * Description: 懒汉式 懒加载的，线程安全，但是如果多个线程获取可能会等待比较久
+ * Description: 静态内部类 避免了线程安全问题 利用静态内部特点实现延迟加载，效率高
  * Author:      Axel
  * Date:        2020-12-16 23:10
  * Version:     V1.0.0<br>
@@ -20,15 +20,15 @@ public class LSingleton {
 }
 
 class Singleton {
+    private  static Singleton instance;
     private Singleton() {
     }
 
-    private static Singleton instance = null;
+    private static class  SingletonInstance{
+        private static final Singleton INSTANCE = new Singleton();
+    }
 
-    public static synchronized Singleton getInstance() {
-        if (instance == null) {
-            return instance = new Singleton();
-        }
-        return instance;
+    public static synchronized Singleton getInstance(){
+        return SingletonInstance.INSTANCE;
     }
 }

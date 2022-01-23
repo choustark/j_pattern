@@ -1,6 +1,6 @@
-package org.factorypattern.simplefactory.singleton.type8;
+package org.singleton.type8;
 
-import static org.factorypattern.simplefactory.singleton.type8.Singleton.INSTANCE;
+import static org.singleton.type8.Singleton.INSTANCE;
 
 /**
  * Description: 静态内部类 避免了线程安全问题 利用静态内部特点实现延迟加载，效率高
