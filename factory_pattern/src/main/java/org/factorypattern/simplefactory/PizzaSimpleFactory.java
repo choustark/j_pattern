@@ -1,9 +1,9 @@
 package org.factorypattern.simplefactory;
 
-import org.factorypattern.normal.pizza.CheesePizza;
-import org.factorypattern.normal.pizza.ChinaPizza;
-import org.factorypattern.normal.pizza.GreekPizza;
-import org.factorypattern.normal.pizza.Pizza;
+import org.factorypattern.common.CheesePizza;
+import org.factorypattern.common.ChinaPizza;
+import org.factorypattern.common.GreekPizza;
+import org.factorypattern.common.Pizza;
 
 /**
  * Description: 简单工厂类，

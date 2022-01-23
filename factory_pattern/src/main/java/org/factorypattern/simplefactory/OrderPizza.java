@@ -1,8 +1,8 @@
-package org.factorypattern.order;
+package org.factorypattern.simplefactory;
 
-import org.factorypattern.normal.pizza.CheesePizza;
-import org.factorypattern.normal.pizza.GreekPizza;
-import org.factorypattern.normal.pizza.Pizza;
+import org.factorypattern.common.CheesePizza;
+import org.factorypattern.common.GreekPizza;
+import org.factorypattern.common.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,7 +1,8 @@
-package org.factorypattern.order;
+package org.factorypattern.functionfactory;
 
-import org.factorypattern.functionfactory.FunOrderPizza;
-import org.factorypattern.normal.pizza.*;
+import org.factorypattern.common.BJCheesePizza;
+import org.factorypattern.common.BJGreekPizza;
+import org.factorypattern.common.Pizza;
 
 /**
  * @ClassName BJOrderPizza

@@ -1,6 +1,6 @@
 package org.factorypattern.absfactory;
 
-import org.factorypattern.normal.pizza.Pizza;
+import org.factorypattern.common.Pizza;
 
 /**
  * @ClassName AbsPizzaFactory

@@ -20,19 +20,19 @@ public class Client {
         sheep.setColor("red");
 
         Sheep sheep1 = new Sheep();
-        sheep.setName("肖恩");
-        sheep.setAge(3);
-        sheep.setColor("red");
+        sheep1.setName("肖恩");
+        sheep1.setAge(3);
+        sheep1.setColor("red");
 
         Sheep sheep2 = new Sheep();
-        sheep.setName("肖恩");
-        sheep.setAge(3);
-        sheep.setColor("red");
+        sheep2.setName("肖恩");
+        sheep2.setAge(3);
+        sheep2.setColor("red");
 
         Sheep sheep3 = new Sheep();
-        sheep.setName("肖恩");
-        sheep.setAge(3);
-        sheep.setColor("red");
+        sheep3.setName("肖恩");
+        sheep3.setAge(3);
+        sheep3.setColor("red");
 
         // ...
 
@@ -47,16 +47,21 @@ public class Client {
 
         // ------------------------- 以上是浅拷贝 ----------------------
 
+        System.out.println("---------------------深拷贝---------------------");
         // 深拷贝克隆
         DeepPrototype deepPrototype = new DeepPrototype();
         deepPrototype.setName("温迪");
         deepPrototype.setTarget(new DeepCloneableTarget("弓箭","风系"));
         DeepPrototype deep = (DeepPrototype) deepPrototype.clone();
+        DeepPrototype o = (DeepPrototype) deep.serialDeepClone();
 
 
-        System.out.println(deepPrototype.getName() + deepPrototype.getTarget().toString());
-        System.out.println(deep.getName() + deep.getTarget().toString());
 
+        System.out.println("深拷贝clone++"+deepPrototype.getName() + deepPrototype.getTarget().toString());
+        System.out.println("深拷贝clone++"+deep.getName() + deep.getTarget().toString());
+
+        System.out.println("深拷贝serial++"+deepPrototype.getName() + deepPrototype.getTarget().toString());
+        System.out.println("深拷贝serial++"+o.getName() + o.getTarget().toString());
 
     }
 }

@@ -1,6 +1,6 @@
-package org.factorypattern.order;
+package org.factorypattern.simplefactory;
 
-import org.factorypattern.normal.pizza.Pizza;
+import org.factorypattern.common.Pizza;
 import org.factorypattern.simplefactory.PizzaSimpleFactory;
 
 import java.io.BufferedReader;

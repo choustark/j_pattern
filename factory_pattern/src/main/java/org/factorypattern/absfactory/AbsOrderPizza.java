@@ -1,7 +1,6 @@
-package org.factorypattern.order;
+package org.factorypattern.absfactory;
 
-import org.factorypattern.absfactory.AbsPizzaFactory;
-import org.factorypattern.normal.pizza.Pizza;
+import org.factorypattern.common.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -21,7 +20,6 @@ public class AbsOrderPizza {
 
     public AbsOrderPizza(AbsPizzaFactory factory) {
         setFactory(factory);
-
     }
 
     private void setFactory(AbsPizzaFactory factory) {

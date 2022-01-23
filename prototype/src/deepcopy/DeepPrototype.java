@@ -62,27 +62,31 @@ public class DeepPrototype implements Serializable, Cloneable {
             baos = new ByteArrayOutputStream();
             oos = new ObjectOutputStream(baos);
             oos.writeObject(this); // 当前这个对象以对象流的方式传出
-
             // 反序列化
             bais = new ByteArrayInputStream(baos.toByteArray());
             ois = new ObjectInputStream(bais);
-            DeepPrototype o = (DeepPrototype) ois.readObject();
-
-            return o;
+           return  (DeepPrototype) ois.readObject();
         } catch (IOException | ClassNotFoundException e) {
             e.printStackTrace();
             return null;
         } finally {
             try {
-                bais.close();
-                bais.close();
-                oos.close();
-                ois.close();
+                if(null != bais){
+                    bais.close();
+                }
+                if(null != oos){
+                    oos.close();
+                }
+                if(null != ois){
+                    ois.close();
+                }
+                if(null != bais){
+                    bais.close();
+                }
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
-
-            return null;
         }
     }
 

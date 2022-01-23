@@ -1,4 +1,4 @@
-package org.factorypattern.normal.pizza;
+package org.factorypattern.common;
 
 import lombok.Data;
 

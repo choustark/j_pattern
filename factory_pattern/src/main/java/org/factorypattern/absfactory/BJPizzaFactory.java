@@ -1,8 +1,8 @@
 package org.factorypattern.absfactory;
 
-import org.factorypattern.normal.pizza.Pizza;
-import org.factorypattern.normal.pizza.SHCheesePizza;
-import org.factorypattern.normal.pizza.SHGreekPizza;
+import org.factorypattern.common.Pizza;
+import org.factorypattern.common.SHCheesePizza;
+import org.factorypattern.common.SHGreekPizza;
 
 /**
  * @ClassName BJPizzaFactory

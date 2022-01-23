@@ -1,6 +1,6 @@
 package org.factorypattern.functionfactory;
 
-import org.factorypattern.normal.pizza.Pizza;
+import org.factorypattern.common.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

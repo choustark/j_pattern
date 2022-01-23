@@ -26,13 +26,6 @@ class FuckAction implements IFuckAction{
 
 interface IWoman{
     void toPlay(String feelLevel);
-
-    default void f2() {
-            // do sth
-    }
-    static void f3(){
-
-    }
 }
 class SexWoman implements IWoman{
     @Override
