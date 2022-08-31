@@ -8,7 +8,8 @@ import java.io.InputStreamReader;
 
 /**
  * @ClassName AbsOrderPizza
- * @Description TODO
+ * @Description  制作披萨的方式，可以有多种可以在进行抽象。需要要抽象工厂，
+ * 不同产品族会有不同生产方式需要用到不同的工厂
  * @Author Axel
  * @Date 2021/1/3 21:47
  * @Version 1.0
