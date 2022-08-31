@@ -33,6 +33,7 @@ public class AbsOrderPizza {
                 pizza.box();
             } else {
                 System.out.println("披萨制作失败...");
+                break;
             }
         }while (true);
     }
