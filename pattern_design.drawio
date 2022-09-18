@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T10:20:01.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ajvj0nwFNY7Q4k3D73RB" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T10:21:50.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="NwUSLrjaVAbkKTOlf3Wm" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1508" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1908" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -288,6 +288,12 @@
         </mxCell>
         <mxCell id="E6uQrEqXwqY0D4v9G9D3-52" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-140" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-53" value="产品族" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-420" y="590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-54" value="产品登记" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="990" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
