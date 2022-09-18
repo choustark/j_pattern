@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T04:02:12.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1BilIFfyLaeOHl9pwAiZ" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T10:20:01.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ajvj0nwFNY7Q4k3D73RB" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1508" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -258,6 +258,36 @@
         </mxCell>
         <mxCell id="E6uQrEqXwqY0D4v9G9D3-42" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="373.55" y="460" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-43" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="970" as="sourcePoint" />
+            <mxPoint x="70" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-46" value="" style="endArrow=classic;html=1;rounded=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="970" as="sourcePoint" />
+            <mxPoint x="-340" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-47" value="" style="image;html=1;image=img/lib/clip_art/computers/iMac_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-290" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-48" value="" style="image;html=1;image=img/lib/clip_art/computers/Laptop_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-290" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-49" value="" style="image;html=1;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-290" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-50" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/BlackBerry_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-130" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-51" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/HTC_smartphone_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-120" y="860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E6uQrEqXwqY0D4v9G9D3-52" value="" style="image;html=1;image=img/lib/clip_art/telecommunication/iPhone_128x128.png" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-140" y="600" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
