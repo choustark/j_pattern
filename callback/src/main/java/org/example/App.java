@@ -7,12 +7,16 @@ public class App {
     public static void main(String[] args) {
         //m1();
         //m2();
+        m3();
+    }
 
+    private static void m3() {
         int a = 26549;
         int b = 16487;
-        Student02 s = new Student02("小明");
+        SuperCalculator01 calculator01 = new SuperCalculator01();
+        Student02 s = new Student02(calculator01,"小明");
         s.callHelp(a, b);
-}
+    }
 
     private static void m2() {
         int a = 168;

@@ -25,6 +25,11 @@ public class Seller {
         public void fillBlank(int a, int b, int result) {
             System.out.println(name + "求助小红算账:" + a + " + " + b + " = " + result + "元");
         }
+
+        @Override
+        public String fillBlank2(int a, int b) {
+            return null;
+        }
     }
 
     public void callHelp(int a, int b) {
