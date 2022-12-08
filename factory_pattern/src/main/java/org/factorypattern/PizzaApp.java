@@ -14,10 +14,10 @@ import org.factorypattern.simplefactory.PizzaSimpleFactory;
 public class PizzaApp {
     public static void main( String[] args ) {
         // 普通方式
-        /*OrderPizza orderPizza = new OrderPizza();
+        OrderPizza orderPizza = new OrderPizza();
         orderPizza.orderPizza();
         // 简单工厂方式
-        PizzaSimpleFactory simplePizzaFactory = new PizzaSimpleFactory();
+        /*PizzaSimpleFactory simplePizzaFactory = new PizzaSimpleFactory();
         FOrderPizza fOrderPizza = new FOrderPizza(simplePizzaFactory);*/
 
 
