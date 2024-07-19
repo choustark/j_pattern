@@ -4,7 +4,7 @@ package org.example;
  * @author Axel
  * @version 1.0
  * @className Student02
- * @description TODO
+ * @description 学生类具有计算能力的
  * @date 2022/9/21 23:00
  */
 

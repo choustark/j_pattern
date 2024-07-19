@@ -4,7 +4,7 @@ package org.example;
  * @author Axel
  * @version 1.0
  * @className Seller
- * @description TODO
+ * @description 销售类
  * @date 2022/9/21 23:01
  */
 

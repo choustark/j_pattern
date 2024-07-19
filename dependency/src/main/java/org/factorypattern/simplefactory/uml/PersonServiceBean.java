@@ -2,17 +2,16 @@ package org.factorypattern.simplefactory.uml;
 
 /**
  * Description:
- * Author:      Axel
- * Date:        2020-12-13 14:30
- * Version:     V1.0.0<br>
- * Update:     <br>
- *  
+ * Author:Axel
+ * Date: 2020-12-13 14:30
+ * Version: 1.0.0
+ * Update:
  */
 
 public class PersonServiceBean {
     private PersonDao personDao;
     private void save(Person person){}
-    public IDcard getIdCard(Integer personId){
+    public IDCard getIdCard(Integer personId){
         return null;
     }
     public void modify(){
@@ -22,5 +21,5 @@ public class PersonServiceBean {
 
 class Person{}
 class PersonDao{}
-class IDcard{}
+class IDCard{}
 class Department{}

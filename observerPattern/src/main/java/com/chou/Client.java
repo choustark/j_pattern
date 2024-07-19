@@ -1,5 +1,6 @@
 package com.chou;
 
+import com.chou.generic.observer.*;
 import com.chou.normal.subject.Secretary;
 import com.chou.pattern.observer.NewsObserver;
 import com.chou.pattern.observer.Observer;
@@ -8,9 +9,14 @@ import com.chou.pattern.subject.SecretarySubject;
 
 public class Client {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         //normalAction();
-        observerAction();
+        //observerAction();
+
+        User user = new User("张三", "123213@foxmail.com", "13982124217", "12311");
+        UserRegisterAction action = new UserRegisterAction(UserAction.ADD,user);
+        action.addObserver(new PlusEmailMsg());
+        action.addObserver(new PlusSmsMsg());
+        action.register();
     }
 
     /**
